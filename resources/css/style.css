@@ -1,0 +1,45 @@
+/* Start Global Rules */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Cairo', sans-serif;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    padding: 0 .9375rem;
+    margin: 0 auto;
+}
+/* Small */
+@media (min-width: 48rem) {
+    .container {
+        width: 46.875rem;
+    }
+}
+/* Medium */
+@media (min-width: 62rem) {
+    .container {
+        width: 60.625rem;
+    }
+}
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 73.125rem;
+    }
+}
+/* End Global Rules */
+/* Start Header */
+/* End Header */
